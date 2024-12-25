@@ -1,0 +1,23 @@
+{
+    "name": "girthquake/poke-php",
+    "description": "A PHP backend for hosting your own custom online Pokemon multiplayer projects. Includes a complete rewrite of everything needed for battling and beyond via REST API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Hurley",
+            "email": "sean.hurley170@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PokePHP\\": "",
+            "PokePHP\\Test\\": "test",
+            "PokePHP\\Src\\": "src",
+            "PokePHP\\Src\\Objects\\": "src/objects",
+            "PokePHP\\Src\\Api\\": "src/api",
+            "PokePHP\\Src\\Objects\\Recipes\\": "src/objects/recipes"
+        }
+    }
+}
