@@ -2,6 +2,9 @@
 
 namespace PokePHP\Src\Objects\Constants;
 
+/**
+ * Constants representing each type and attack multipliers associated with each
+ */
 final class Types {
     public const FAIRY = "Fairy";
     public const STEEL = "Steel";

@@ -2,6 +2,9 @@
 
 namespace PoekPHP\Src\Objects\Recipes;
 
+use PokePHP\Src\Objects\Abstract\Ability;
+use PokePHP\Src\Objects\Abstract\Item;
+
 class MonsterRecipe {
     public int $id;
     public string $name;

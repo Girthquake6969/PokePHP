@@ -3,6 +3,7 @@
 namespace PokePHP\Src\Objects;
 
 use PoekPHP\Src\Objects\Recipes\MonsterRecipe;
+use PokePHP\Src\Objects\Abstract\Status;
 
 class Monster {
     public MonsterRecipe $baseMonster;
