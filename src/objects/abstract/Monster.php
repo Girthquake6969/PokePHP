@@ -1,12 +1,9 @@
 <?php
 
-namespace PokePHP\Src\Objects;
-
-use PoekPHP\Src\Objects\Recipes\MonsterRecipe;
-use PokePHP\Src\Objects\Abstract\Status;
+namespace PokePHP\Src\Objects\Abstract;
 
 class Monster {
-    public MonsterRecipe $baseMonster;
+    public Species $species;
 
     // Effort Values (0-252)
     public int $attackEffortValues;
@@ -31,7 +28,8 @@ class Monster {
     public ?bool $gender;
     public bool $isShiny;
     public ?Status $status;
-    // TODO: consider adding the other stats for quick access
+
+    // TODO: consider adding the other stats for quick access OR consider removing and caching calc by level?
     public int $totalHitPoints;
     public int $currentHitPoints;
 }

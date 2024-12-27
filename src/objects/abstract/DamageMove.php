@@ -8,4 +8,6 @@ abstract class DamageMove extends Move {
     public bool $physical;
 
     public int $power;
+
+    abstract public function addedEffects();
 }
